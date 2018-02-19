@@ -1,0 +1,5 @@
+/home/kouper/ElevatorSystem16_02/ElevatorSystem16_02/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/kouper/ElevatorSystem16_02/ElevatorSystem16_02/bin/Debug/ElevatorSystem16_02.pdb
+/home/kouper/ElevatorSystem16_02/ElevatorSystem16_02/bin/Debug/ElevatorSystem16_02.exe
+/home/kouper/ElevatorSystem16_02/ElevatorSystem16_02/obj/x86/Debug/ElevatorSystem16_02.exe
+/home/kouper/ElevatorSystem16_02/ElevatorSystem16_02/obj/x86/Debug/ElevatorSystem16_02.pdb

@@ -9,10 +9,11 @@ namespace ElevatorSystem16_02
 		{
 			Application.Init();
 			Window mainWin = new Window (" ElevatorSystem ");
-			mainWin.Resize(1200, 700);
+
 			Form1StartMenu a1 = new Form1StartMenu ();
 			Widget form;
 			form = a1.form1();
+
 			mainWin.Add (form);
 			mainWin.DeleteEvent += delete_event;
 

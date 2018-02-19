@@ -5,15 +5,23 @@ namespace ElevatorSystem16_02
 {
 	public class Form1StartMenu : Box
 	{
+		private VBox vbox;
+		private HBox hbox;
+		private Button button;
+		private Label lable1;
+		private Label lable2;
+		private Entry entry1;
+		private Entry entry2;
+
 		public Widget form1()
 		{
-			VBox vbox;
+			/*VBox vbox;
 			HBox hbox;
 			Button button;
 			Label lable1;
 			Label lable2;
 			Entry entry1;
-			Entry entry2;
+			Entry entry2;*/
 
 			vbox = new VBox (false, 2);
 			button = new Button ("Start");
@@ -41,10 +49,12 @@ namespace ElevatorSystem16_02
 
 		}
 
-		static void startCallBack(object obj, EventArgs  args )
+		public void startCallBack(object obj, EventArgs  args )
 		{
-			
-			Console.WriteLine("Hello again - cool button was pressed");
+			string floors; 
+			floors = entry1.Text;
+			Console.WriteLine (floors);
+
 		}
 
 
